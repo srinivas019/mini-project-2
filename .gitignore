@@ -1,0 +1,42 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.env/
+ENV/
+
+# Ultralytics & Model Checkpoints
+runs/
+*.pt
+!models/README.md
+
+# Datasets (large files and archives should not be committed to Git)
+datasets/*.zip
+datasets/**/*.zip
+datasets/ivcnz/
+datasets/images/
+datasets/labels/
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.txt
+!datasets/README.md
+!datasets/data.yaml
+
+# App Outputs & Temporary Files
+outputs/*.jpg
+outputs/*.png
+outputs/*.csv
+!outputs/.gitkeep
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

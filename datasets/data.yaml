@@ -1,0 +1,8 @@
+# IVCNZ Real-World Pothole Dataset Configuration
+path: datasets
+train: images/train
+val: images/val
+
+nc: 1
+names:
+  0: pothole

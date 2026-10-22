@@ -1,0 +1,14 @@
+# Core Deep Learning & Object Detection
+ultralytics>=8.0.0
+
+# Computer Vision & Image Handling
+opencv-python>=4.8.0
+Pillow>=9.5.0
+
+# Web Dashboard
+streamlit>=1.30.0
+
+# Data Analysis & Mathematics
+numpy>=1.23.0
+pandas>=1.5.0
+
